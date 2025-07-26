@@ -10,6 +10,31 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* changes */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* changes */
+.flora {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin-top: 32px;
+}
+
+.flora div {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: flex-start;
+}
+
+.flora div img{
+  margin: auto;
 }
 
 /* do not edit this footer */
